@@ -16,11 +16,36 @@ Feel free to attempt to create this project based on the overview and rubric spe
 
 1. **Initialize your project.**
    Add the dependencies required for this project, including Express, TypeScript, Jasmine, Eslint, and Prettier. Complete your package.json file.
+   ```bash
+   mkdir image-processing-api
+   cd image-processing-api
+   npm init -y
+   npm install express sharp
+   npm install --save-dev typescript @types/node @types/express jest ts-jest @types/jest eslint prettier
+   ```
    - Where should your dependencies be placed?
    - What scripts should you create to take advantage of the dependencies you've added?
    - Are there other dependencies you would like to add or know you will need to improve your workflow?
 2. **Set up your project structure.**
    Create folders and files for what you anticipate you will need for the project.
+   ```text
+   image-processing-api/
+   ├── src/
+   │   ├── routes/
+   │   │   └── images/
+   │   ├── utils/
+   │   │   └── imageProcessor.ts
+   │   ├── middleware/
+   │   │   └── cache.ts
+   │   ├── tests/
+   │   │   ├── routes/
+   │   │   └── utils/
+   │   ├── config/
+   │   │   └── types.ts
+   │   └── index.ts
+   ├── public/
+   └── package.json
+   ```
    - How do you plan to keep your source code and build code separately?
    - Where will you keep your tests?
    - How do you plan to name your routes? Utilities?

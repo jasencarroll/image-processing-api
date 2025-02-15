@@ -1,0 +1,32 @@
+{
+  "name": "image-processing-api",
+  "version": "1.0.0",
+  "description": "Full Stack JavaScript Udacity Project 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasencarroll/image-processing-api.git"
+  },
+  "author": "Jasen Carroll",
+  "bugs": {
+    "url": "https://github.com/jasencarroll/image-processing-api/issues"
+  },
+  "homepage": "https://github.com/jasencarroll/image-processing-api#readme",
+  "dependencies": {
+    "express": "^4.21.2",
+    "sharp": "^0.33.5"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.13.4",
+    "eslint": "^9.20.1",
+    "jest": "^29.7.0",
+    "prettier": "^3.5.1",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.7.3"
+  }
+}
