@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1740852711192" clover="3.2.0">
+  <project timestamp="1740852711193" name="All files">
+    <metrics statements="121" coveredstatements="86" conditionals="54" coveredconditionals="40" methods="19" coveredmethods="14" elements="194" coveredelements="140" complexity="0" loc="121" ncloc="121" packages="4" files="4" classes="4"/>
+    <package name="src">
+      <metrics statements="22" coveredstatements="0" conditionals="3" coveredconditionals="0" methods="5" coveredmethods="0"/>
+      <file name="index.ts" path="/Users/jasen/dev/image-processing-api/src/index.ts">
+        <metrics statements="22" coveredstatements="0" conditionals="3" coveredconditionals="0" methods="5" coveredmethods="0"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="16" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="47" count="0" type="stmt"/>
+        <line num="48" count="0" type="stmt"/>
+        <line num="52" count="0" type="stmt"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="57" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="58" count="0" type="stmt"/>
+        <line num="59" count="0" type="stmt"/>
+        <line num="60" count="0" type="stmt"/>
+        <line num="65" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.middleware">
+      <metrics statements="34" coveredstatements="30" conditionals="19" coveredconditionals="17" methods="5" coveredmethods="5"/>
+      <file name="cache.ts" path="/Users/jasen/dev/image-processing-api/src/middleware/cache.ts">
+        <metrics statements="34" coveredstatements="30" conditionals="19" coveredconditionals="17" methods="5" coveredmethods="5"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="29" count="7" type="stmt"/>
+        <line num="32" count="7" type="cond" truecount="2" falsecount="1"/>
+        <line num="35" count="7" type="cond" truecount="4" falsecount="0"/>
+        <line num="39" count="7" type="stmt"/>
+        <line num="48" count="7" type="stmt"/>
+        <line num="49" count="7" type="stmt"/>
+        <line num="51" count="7" type="stmt"/>
+        <line num="52" count="7" type="stmt"/>
+        <line num="55" count="7" type="cond" truecount="1" falsecount="0"/>
+        <line num="56" count="2" type="stmt"/>
+        <line num="57" count="2" type="stmt"/>
+        <line num="60" count="5" type="stmt"/>
+        <line num="61" count="5" type="stmt"/>
+        <line num="63" count="0" type="stmt"/>
+        <line num="64" count="0" type="stmt"/>
+        <line num="75" count="1" type="stmt"/>
+        <line num="79" count="8" type="stmt"/>
+        <line num="80" count="8" type="stmt"/>
+        <line num="82" count="8" type="stmt"/>
+        <line num="90" count="8" type="cond" truecount="1" falsecount="0"/>
+        <line num="91" count="1" type="stmt"/>
+        <line num="92" count="1" type="stmt"/>
+        <line num="96" count="7" type="stmt"/>
+        <line num="98" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="100" count="2" type="stmt"/>
+        <line num="104" count="5" type="stmt"/>
+        <line num="105" count="5" type="stmt"/>
+        <line num="108" count="0" type="stmt"/>
+        <line num="109" count="0" type="stmt"/>
+        <line num="113" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.routes.images">
+      <metrics statements="22" coveredstatements="18" conditionals="15" coveredconditionals="9" methods="2" coveredmethods="2"/>
+      <file name="index.ts" path="/Users/jasen/dev/image-processing-api/src/routes/images/index.ts">
+        <metrics statements="22" coveredstatements="18" conditionals="15" coveredconditionals="9" methods="2" coveredmethods="2"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="31" count="5" type="stmt"/>
+        <line num="32" count="5" type="stmt"/>
+        <line num="34" count="5" type="cond" truecount="1" falsecount="1"/>
+        <line num="42" count="5" type="cond" truecount="0" falsecount="1"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="48" count="5" type="stmt"/>
+        <line num="49" count="5" type="cond" truecount="1" falsecount="0"/>
+        <line num="50" count="1" type="stmt"/>
+        <line num="51" count="1" type="stmt"/>
+        <line num="55" count="4" type="cond" truecount="1" falsecount="0"/>
+        <line num="59" count="1" type="stmt"/>
+        <line num="60" count="1" type="stmt"/>
+        <line num="64" count="3" type="stmt"/>
+        <line num="67" count="3" type="stmt"/>
+        <line num="69" count="0" type="stmt"/>
+        <line num="70" count="0" type="stmt"/>
+        <line num="74" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.utils">
+      <metrics statements="43" coveredstatements="38" conditionals="17" coveredconditionals="14" methods="7" coveredmethods="7"/>
+      <file name="imageProcessor.ts" path="/Users/jasen/dev/image-processing-api/src/utils/imageProcessor.ts">
+        <metrics statements="43" coveredstatements="38" conditionals="17" coveredconditionals="14" methods="7" coveredmethods="7"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="23" count="7" type="stmt"/>
+        <line num="25" count="7" type="cond" truecount="0" falsecount="1"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="43" count="2" type="stmt"/>
+        <line num="45" count="7" type="stmt"/>
+        <line num="48" count="7" type="cond" truecount="2" falsecount="1"/>
+        <line num="51" count="7" type="cond" truecount="4" falsecount="0"/>
+        <line num="55" count="7" type="stmt"/>
+        <line num="64" count="2" type="stmt"/>
+        <line num="66" count="7" type="stmt"/>
+        <line num="67" count="7" type="stmt"/>
+        <line num="69" count="7" type="stmt"/>
+        <line num="72" count="7" type="stmt"/>
+        <line num="73" count="7" type="stmt"/>
+        <line num="74" count="7" type="stmt"/>
+        <line num="77" count="7" type="cond" truecount="1" falsecount="0"/>
+        <line num="78" count="1" type="stmt"/>
+        <line num="82" count="6" type="stmt"/>
+        <line num="85" count="6" type="cond" truecount="3" falsecount="0"/>
+        <line num="86" count="4" type="stmt"/>
+        <line num="95" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="96" count="2" type="stmt"/>
+        <line num="100" count="6" type="stmt"/>
+        <line num="102" count="6" type="stmt"/>
+        <line num="103" count="6" type="stmt"/>
+        <line num="105" count="1" type="stmt"/>
+        <line num="106" count="1" type="stmt"/>
+        <line num="116" count="7" type="stmt"/>
+        <line num="117" count="7" type="stmt"/>
+        <line num="118" count="7" type="stmt"/>
+        <line num="119" count="7" type="stmt"/>
+        <line num="120" count="5" type="stmt"/>
+        <line num="122" count="2" type="stmt"/>
+        <line num="126" count="2" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
